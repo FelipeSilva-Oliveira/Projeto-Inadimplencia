@@ -3,7 +3,7 @@ Objetivo
 Desenvolver um modelo preditivo de machine learning para prever a inadimplência de clientes em contratos de financiamento, desde a coleta e análise dos dados até a implementação em produção.
 
 ## Funcionalidades Principais
-1. Coleta e Pré-processamento de Dados
+1 - Coleta e Pré-processamento de Dados
   Fonte de Dados: Os dados são extraídos de um banco de dados SQL Server, contendo informações como tipo de financiamento, taxa anual, prazo, renda do cliente, histórico de pagamentos e inadimplência.
   
   Tratamento de Dados:
@@ -14,12 +14,12 @@ Desenvolver um modelo preditivo de machine learning para prever a inadimplência
   
   Balanceamento do conjunto de dados para lidar com desproporção entre classes (inadimplentes e não inadimplentes).
 
-2 - Análise Exploratória
-  Visão Geral: Análise inicial do conjunto de dados para entender sua estrutura, tipos de variáveis e distribuição.
+ Análise Exploratória
+  .Visão Geral: Análise inicial do conjunto de dados para entender sua estrutura, tipos de variáveis e distribuição.
   
-  Variáveis Categóricas: Identificação de variáveis com valores únicos e análise de sua relação com a inadimplência.
+  .Variáveis Categóricas: Identificação de variáveis com valores únicos e análise de sua relação com a inadimplência.
     
-  Estatísticas Descritivas: Cálculo de medidas como média, desvio padrão e valores extremos para entender o comportamento das variáveis.
+  .Estatísticas Descritivas: Cálculo de medidas como média, desvio padrão e valores extremos para entender o comportamento das variáveis.
 
 3 - Engenharia de Atributos
   Criação de Novas Variáveis: Transformação de variáveis numéricas em categorias (ex: faixas de prazo e valor financiado) para melhorar o desempenho do modelo.
