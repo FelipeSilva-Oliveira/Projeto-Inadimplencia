@@ -66,4 +66,6 @@ Visualização de dados e comunicação de resultados.
 
 Integração com bancos de dados e preparação para produção.
 
+Automação e produção: Salvamento do modelo treinado, aplicação do modelo em novos dados, geração de previsões e probabilidades, e integração dos resultados ao banco de dados SQL Server.
+
 Este projeto é um exemplo completo de como a ciência de dados pode ser aplicada para resolver problemas reais no setor financeiro, demonstrando habilidades técnicas e capacidade de entregar soluções end-to-end.
