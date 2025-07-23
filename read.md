@@ -14,12 +14,10 @@ Desenvolver um modelo preditivo de machine learning para prever a inadimplência
   
   Balanceamento do conjunto de dados para lidar com desproporção entre classes (inadimplentes e não inadimplentes).
 
- Análise Exploratória
-  .Visão Geral: Análise inicial do conjunto de dados para entender sua estrutura, tipos de variáveis e distribuição.
-  
-  .Variáveis Categóricas: Identificação de variáveis com valores únicos e análise de sua relação com a inadimplência.
-    
-  .Estatísticas Descritivas: Cálculo de medidas como média, desvio padrão e valores extremos para entender o comportamento das variáveis.
+#2 - Análise Exploratória:
+  Visão Geral: Análise inicial do conjunto de dados para entender sua estrutura, tipos de variáveis e distribuição.
+  Variáveis Categóricas: Identificação de variáveis com valores únicos e análise de sua relação com a inadimplência.
+  Estatísticas Descritivas: Cálculo de medidas como média, desvio padrão e valores extremos para entender o comportamento das variáveis.
 
 3 - Engenharia de Atributos
   Criação de Novas Variáveis: Transformação de variáveis numéricas em categorias (ex: faixas de prazo e valor financiado) para melhorar o desempenho do modelo.
