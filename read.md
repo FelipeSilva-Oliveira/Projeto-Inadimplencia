@@ -4,39 +4,39 @@ Desenvolver um modelo preditivo de machine learning para prever a inadimplência
 
 ## Funcionalidades Principais
 1. Coleta e Pré-processamento de Dados
-Fonte de Dados: Os dados são extraídos de um banco de dados SQL Server, contendo informações como tipo de financiamento, taxa anual, prazo, renda do cliente, histórico de pagamentos e inadimplência.
-
-Tratamento de Dados:
-
-Identificação e remoção de valores ausentes.
-
-Criação de faixas de valores para variáveis numéricas (ex: prazo de financiamento, valor financiado).
-
-Balanceamento do conjunto de dados para lidar com desproporção entre classes (inadimplentes e não inadimplentes).
+  Fonte de Dados: Os dados são extraídos de um banco de dados SQL Server, contendo informações como tipo de financiamento, taxa anual, prazo, renda do cliente, histórico de pagamentos e inadimplência.
+  
+  Tratamento de Dados:
+  
+  Identificação e remoção de valores ausentes.
+  
+  Criação de faixas de valores para variáveis numéricas (ex: prazo de financiamento, valor financiado).
+  
+  Balanceamento do conjunto de dados para lidar com desproporção entre classes (inadimplentes e não inadimplentes).
 
 2. Análise Exploratória
-Visão Geral: Análise inicial do conjunto de dados para entender sua estrutura, tipos de variáveis e distribuição.
-
-Variáveis Categóricas: Identificação de variáveis com valores únicos e análise de sua relação com a inadimplência.
-
-Estatísticas Descritivas: Cálculo de medidas como média, desvio padrão e valores extremos para entender o comportamento das variáveis.
+  Visão Geral: Análise inicial do conjunto de dados para entender sua estrutura, tipos de variáveis e distribuição.
+  
+  Variáveis Categóricas: Identificação de variáveis com valores únicos e análise de sua relação com a inadimplência.
+    
+  Estatísticas Descritivas: Cálculo de medidas como média, desvio padrão e valores extremos para entender o comportamento das variáveis.
 
 3. Engenharia de Atributos
-Criação de Novas Variáveis: Transformação de variáveis numéricas em categorias (ex: faixas de prazo e valor financiado) para melhorar o desempenho do modelo.
+  Criação de Novas Variáveis: Transformação de variáveis numéricas em categorias (ex: faixas de prazo e valor financiado) para melhorar o desempenho do modelo.
 
-Seleção de Variáveis: Remoção de colunas irrelevantes ou redundantes para simplificar o modelo.
+  Seleção de Variáveis: Remoção de colunas irrelevantes ou redundantes para simplificar o modelo.
 
 4. Modelagem Preditiva
-Algoritmo Utilizado: Random Forest, um método de ensemble learning conhecido por sua robustez e capacidade de lidar com dados desbalanceados.
-
-Métricas de Avaliação: Uso de métricas como precisão, recall, F1-score e AUC-ROC para avaliar o desempenho do modelo.
-
-Balanceamento de Dados: Aplicação de técnicas como SMOTE para equilibrar as classes e melhorar a previsão de inadimplência.
+  Algoritmo Utilizado: Random Forest, um método de ensemble learning conhecido por sua robustez e capacidade de lidar com dados desbalanceados.
+  
+  Métricas de Avaliação: Uso de métricas como precisão, recall, F1-score e AUC-ROC para avaliar o desempenho do modelo.
+  
+  Balanceamento de Dados: Aplicação de técnicas como SMOTE para equilibrar as classes e melhorar a previsão de inadimplência.
 
 5. Implementação em Produção
-Serialização do Modelo: Uso da biblioteca joblib para salvar o modelo treinado, permitindo sua integração em sistemas de produção.
-
-Automatização: O projeto é estruturado para facilitar a atualização do modelo com novos dados e sua implantação em ambientes operacionais.
+  Serialização do Modelo: Uso da biblioteca joblib para salvar o modelo treinado, permitindo sua integração em sistemas de produção.
+  
+  Automatização: O projeto é estruturado para facilitar a atualização do modelo com novos dados e sua implantação em ambientes operacionais.
 
 Tecnologias Utilizadas
 Linguagem: Python.
